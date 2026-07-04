@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans+Deva:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Bangers&family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans+Deva:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(0, 0, 0, 0.959);;
+    max-width: 100%;
+    height: 600px;
+}
+ul{
+     background-color: rgb(0, 0, 0);
+     margin: 0px;
+     height: 80px;
+     display: flex;
+     justify-content: center;
+
+}
+
+a{
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     display: inline-block;
+     padding: 11px;
+     padding-top: 25px;
+     font-size: 22px;
+      transition: 0.3s;
+      font-weight: bolder;
+}
+a:hover{
+     color: orange; 
+}
+.con{
+    color: orange;
+}
+.tato{
+    text-align: center;
+    margin: 0px;
+     font-family: "Bangers", system-ui;
+     font-size: 140px;
+     padding-top: 50px;
+     color: orange;
+}
+.end{
+    color: white;
+    font-size: 40px;
+    margin: 0px;
+    padding-left: 30px;
+}
+.rua{
+    font-size: 23px;
+    color:white;
+    margin: 0px;
+    padding-left: 30px;
+}
+.mapa{
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+.mapa iframe{
+    width: 100%;
+    display: block;
+    border: 0;
+}
+.linha{
+   border: 0px 0px 0px 1px;
+   border-style: solid;
+   color: white;
+   margin-bottom: 30px;
+   margin-left: 300px;
+   margin-top: 30px;
+   margin-right: 300px;
+}
+.rede{
+    height: 350px;
+    background-color: rgb(0, 0, 0);
+}
+.reso{
+    color: white;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ins{
+    font-size: 50px;
+    margin: 0px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.ig{
+    margin: 0px;
+    font-size: 25px;
+}
+.zap{
+    font-size: 50px;
+    margin: 0px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.zg{
+     margin: 0px;
+    font-size: 25px;
+}
+@media (max-width: 768px){
+     ul{
+          align-items: center;
+          height: auto;
+           padding: 0px;
+     }
+     a{
+          font-size: 17px;
+         padding: 5px;
+          
+     }
+     .tato{
+        font-size: 90px;
+     }
+     .mapa{
+        width: 100%;
+     }
+     .mapa iframe{
+        width: 100%;
+        height: 350;
+     }
+      .ins{
+        font-size: 30px;
+      }
+      .zap{
+        font-size: 30px;
+      }
+
+      *{
+        max-width: 100%;
+      }
+     }
+     *{
+        max-width: 100%;
+      }

@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans+Deva:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Bangers&family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans+Deva:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+     scroll-behavior: smooth !important;
+
+}
+ul{
+     background-color: rgb(0, 0, 0);
+     margin: 0px;
+     height: 80px;
+     display: flex;
+     justify-content: center;
+
+}
+
+a{
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     display: inline-block;
+     padding: 11px;
+     padding-top: 25px;
+     font-size: 22px;
+      transition: 0.3s;
+      font-weight: bolder;
+}
+a:hover{
+     color: orange; 
+}
+.car{
+    color: orange;
+}
+.pio{
+    text-align: center;
+    margin: 0px;
+     font-family: "Bangers", system-ui;
+     font-size: 140px;
+     padding-top: 50px;
+     color: orange;
+}
+.carda{
+    background-color: rgba(0, 0, 0, 0.959);
+    max-width: 100%;
+    height: 11520px;
+}
+.hcpb{
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40px;
+}
+#burguers{
+    background-color: black;
+}
+#porçoes{
+    background-color: black;
+}
+.bur{
+    margin:0px;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.x-burguer{
+    margin: 0px;
+    padding-left: 40px;
+}
+.x-burguer > h1{
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.x-burguer > p{
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.x-burguer > h2{
+    color: orange;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 900px;
+}
+.X-Cheddar{
+    margin: 0px;
+    padding-left: 40px;
+}
+.X-Cheddar > h1{
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.X-Cheddar > p{
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.X-Cheddar > h2{
+    color: orange;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 900px;
+}
+.X-Salada{
+    margin: 0px;
+    padding-left: 40px;
+}
+.X-Salada > h1{
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.X-Salada > p{
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.X-Salada > h2{
+    color: orange;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 900px;
+}
+.X-Egg{
+    margin: 0px;
+    padding-left: 40px;
+}
+.X-Egg > h1{
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.X-Egg > p{
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.X-Egg > h2{
+    color: orange;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 900px;
+}
+.X-Bacon{
+    margin: 0px;
+    padding-left: 40px;
+}
+.X-Bacon > h1{
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.X-Bacon > p{
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.X-Bacon > h2{
+    color: orange;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 900px;
+}
+.X-Frango{
+    margin: 0px;
+    padding-left: 40px;
+}
+.X-Frango > h1{
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.X-Frango > p{
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.X-Frango > h2{
+    color: orange;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 900px;
+}
+.X-Calabresa{
+    margin: 0px;
+    padding-left: 40px;
+}
+.X-Calabresa > h1{
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.X-Calabresa > p{
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.X-Calabresa > h2{
+    color: orange;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 900px;
+}
+.X-Tudo{
+    margin: 0px;
+    padding-left: 40px;
+}
+.X-Tudo > h1{
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.X-Tudo > p{
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.X-Tudo > h2{
+    color: orange;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 900px;
+}
+.linha{
+   border: 0px 0px 0px 1px;
+   border-style: solid;
+   color: white;
+   margin-bottom: 30px;
+   margin-left: 300px;
+   margin-top: 30px;
+   margin-right: 300px;
+}
+.toh{
+    margin:0px;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+.Hot-Dog-Simples{
+margin: 0px;
+    padding-left: 40px;
+}
+.Hot-Dog-Simples > h1{
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.Hot-Dog-Simples > p{
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Hot-Dog-Simples > h2{
+    color: orange;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 900px;
+}
+.Hot-Dog-Completo{
+    margin: 0px;
+    padding-left: 40px;
+}
+.Hot-Dog-Completo > h1{
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.Hot-Dog-Completo > p{
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Hot-Dog-Completo > h2{
+    color: orange;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 900px;
+}
+.Megadog{
+    margin: 0px;
+    padding-left: 40px;
+}
+.Megadog > h1{
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.Megadog > p{
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Megadog > h2{
+    color: orange;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 900px;
+}
+.Megadog-2{
+    margin: 0px;
+    padding-left: 40px;
+}
+.Megadog-2 > h1{
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.Megadog-2 > p{
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Megadog-2 > h2{
+    color: orange;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 900px;
+}
+.Megadog-Master{
+    margin: 0px;
+    padding-left: 40px;
+}
+.Megadog-Master > h1{
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.Megadog-Master > p{
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Megadog-Master > h2{
+    color: orange;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 900px;
+}
+.por{
+    margin:0px;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Batata-Frita-Pequena{
+    margin: 0px;
+    padding-left: 40px;
+}
+.Batata-Frita-Pequena > h1{
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.Batata-Frita-Pequena > p{
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Batata-Frita-Pequena > h2{
+    color: orange;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 900px;
+}
+.Bolinho-de-Queijo{
+    margin: 0px;
+    padding-left: 40px;
+}
+.Bolinho-de-Queijo > h1{
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.Bolinho-de-Queijo > p{
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Bolinho-de-Queijo > h2{
+    color: orange;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 900px;
+}
+.Coxinhas-de-Frango{
+    margin: 0px;
+    padding-left: 40px;
+}
+.Coxinhas-de-Frango > h1{
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.Coxinhas-de-Frango > p{
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Coxinhas-de-Frango > h2{
+    color: orange;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 900px;
+}
+.Batata-Frita-Média{
+    margin: 0px;
+    padding-left: 40px;
+}
+.Batata-Frita-Média > h1{
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.Batata-Frita-Média > p{
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Batata-Frita-Média > h2{
+    color: orange;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 900px;
+}
+.Anéis-de-Cebola-Empanado{
+    margin: 0px;
+    padding-left: 40px;
+}
+.Anéis-de-Cebola-Empanado > h1{
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.Anéis-de-Cebola-Empanado > p{
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Anéis-de-Cebola-Empanado > h2{
+    color: orange;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 900px;
+}
+.Batata-Frita-Grande{
+    margin: 0px;
+    padding-left: 40px;
+}
+.Batata-Frita-Grande > h1{
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.Batata-Frita-Grande > p{
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Batata-Frita-Grande > h2{
+    color: orange;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 900px;
+}
+.beb{
+ margin:0px;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+}
+.crs{
+     margin: 0px;
+    padding-left: 40px;
+    color: orange;
+    margin: 0px;
+    font-size: 55px;
+    font-weight: bolder;
+}
+.bebida > h2{
+color: white;
+    margin: 0px;
+    font-size: 40px;
+    font-weight: bolder;
+     margin: 0px;
+    padding-left: 40px;
+}
+.bebida > h3{
+color: orange;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 900px;
+     margin: 0px;
+    padding-left: 40px;
+}
+.bebida > p{
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+     margin: 0px;
+    padding-left: 40px;
+}
+
+@media (max-width: 720px){
+     ul{
+          align-items: center;
+          height: auto;
+         padding: 0px;
+     }
+     a{
+          font-size: 17px;
+         padding: 5px;
+     }
+     .hcpb{
+        font-size: 17px;
+     }
+.linha{
+   border: 0px 0px 0px 1px;
+   border-style: solid;
+   color: white;
+   margin-bottom: 30px;
+   margin-left: 100px;
+   margin-top: 30px;
+   margin-right: 100px;
+}
+.bur,
+    .toh,
+    .por,
+    .beb{
+        font-size:40px;
+    }
+    .x-burguer,
+    .X-Cheddar,
+    .X-Salada,
+    .X-Egg,
+    .X-Bacon,
+    .X-Frango,
+    .X-Calabresa,
+    .X-Tudo,
+    .Hot-Dog-Simples,
+    .Hot-Dog-Completo,
+    .Megadog,
+    .Megadog-2,
+    .Megadog-Master,
+    .Batata-Frita-Pequena,
+    .Bolinho-de-Queijo,
+    .Coxinhas-de-Frango,
+    .Batata-Frita-Média,
+    .Anéis-de-Cebola-Empanado,
+    .Batata-Frita-Grande,
+    .bebida{
+
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+    .x-burguer h1,
+    .X-Cheddar h1,
+    .X-Salada h1,
+    .X-Egg h1,
+    .X-Bacon h1,
+    .X-Frango h1,
+    .X-Calabresa h1,
+    .X-Tudo h1,
+    .Hot-Dog-Simples h1,
+    .Hot-Dog-Completo h1,
+    .Megadog h1,
+    .Megadog-2 h1,
+    .Megadog-Master h1,
+    .Batata-Frita-Pequena h1,
+    .Bolinho-de-Queijo h1,
+    .Coxinhas-de-Frango h1,
+    .Batata-Frita-Média h1,
+    .Anéis-de-Cebola-Empanado h1,
+    .Batata-Frita-Grande h1{
+        font-size:32px;
+    }
+
+    .x-burguer p,
+    .X-Cheddar p,
+    .X-Salada p,
+    .X-Egg p,
+    .X-Bacon p,
+    .X-Frango p,
+    .X-Calabresa p,
+    .X-Tudo p,
+    .Hot-Dog-Simples p,
+    .Hot-Dog-Completo p,
+    .Megadog p,
+    .Megadog-2 p,
+    .Megadog-Master p,
+    .Batata-Frita-Pequena p,
+    .Bolinho-de-Queijo p,
+    .Coxinhas-de-Frango p,
+    .Batata-Frita-Média p,
+    .Anéis-de-Cebola-Empanado p,
+    .Batata-Frita-Grande p,
+    .bebida p{
+        font-size:16px;
+    }
+
+    .x-burguer h2,
+    .X-Cheddar h2,
+    .X-Salada h2,
+    .X-Egg h2,
+    .X-Bacon h2,
+    .X-Frango h2,
+    .X-Calabresa h2,
+    .X-Tudo h2,
+    .Hot-Dog-Simples h2,
+    .Hot-Dog-Completo h2,
+    .Megadog h2,
+    .Megadog-2 h2,
+    .Megadog-Master h2,
+    .Batata-Frita-Pequena h2,
+    .Bolinho-de-Queijo h2,
+    .Coxinhas-de-Frango h2,
+    .Batata-Frita-Média h2,
+    .Anéis-de-Cebola-Empanado h2,
+    .Batata-Frita-Grande h2,
+    .bebida h3{
+        font-size:24px;
+    }
+
+    .crs{
+        font-size:35px;
+        padding-left:20px;
+    }
+
+    .bebida h2{
+        font-size:28px;
+        padding-left:20px;
+    }
+
+    .carda{
+        height:auto;
+        padding-bottom:40px;
+    }
+    .pio{
+        font-size: 90px;
+    }
+     }

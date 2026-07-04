@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans+Deva:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Bangers&family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans+Deva:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+     font-family: "Poppins", sans-serif;
+     margin: 0px;
+}
+.inicio{
+     background-image: url(xtudo5.png) ;
+     background-repeat: no-repeat;
+     background-position: center;
+     min-height: 100vh;
+     background-size: cover;
+}
+ul{
+     background-color: rgb(0, 0, 0);
+     margin: 0px;
+     height: 80px;
+     display: flex;
+     justify-content: center;
+
+}
+
+a{
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     display: inline-block;
+     padding: 11px;
+     padding-top: 25px;
+     font-size: 22px;
+      transition: 0.3s;
+      font-weight: bolder;
+}
+a:hover{
+     color: orange; 
+}
+.ini{
+     color: orange;
+}
+.bem{
+     color: white;
+     margin: 0px;
+     text-align: center;
+     padding-top: 25px;
+     padding-right: 300px;
+}
+.gor{
+     color: white;
+     margin: 0px;
+     text-align: center;
+     font-size: 140px;
+     font-family: "Bangers", system-ui;
+     padding-right: 80px;
+     color: orange;
+}
+.lan{
+     color: white;
+     margin: 0px;
+     text-align: center;
+     font-size: 160px;
+     font-family: "Bangers", system-ui;
+     padding-left: 110px;
+     color: orange;
+}
+.pedir{
+     text-align: center;
+     padding-top: 20px;
+}
+.pedir1{
+     background-color: transparent;
+     text-decoration: none;
+     border-style: solid;
+     border-radius: 10px;
+     color: orange;
+     font-size: 20px;
+     padding-right: 30px;
+     padding-left:30px ;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     transition: 0.3s;
+}
+.pedir1:hover{
+background-color: orange;
+color: white;
+border-color: orange;
+}
+
+@media (max-width: 768px){
+     ul{
+          align-items: center;
+          height: auto;
+          padding: 0px;
+          padding-top: 15px;
+          padding-bottom: 15px;
+     }
+     a{
+          font-size: 17px;
+         padding: 5px;
+     }
+     .bem{
+          padding-right:80px ;
+          font-size: 22px;
+          padding-top: 70px;
+     }
+     .gor{
+          padding-right: 0px;
+          font-size: 100px;
+     }
+     .lan{
+          padding-left: 0px;
+          font-size: 100px;
+     }
+
+    .inicio{
+     min-height: 100vh;
+    }
+}
+
